@@ -1,0 +1,20 @@
+# Site Settings
+title: Sensible Trade
+description: "Authentic Italian Products — Exported with Expertise"
+tagline: "Partnering with Italian producers to bring quality to the Australian market"
+
+# URL Settings (for GitHub Pages project site)
+baseurl: "/Sensible-Trade"
+url: "https://tij8i.github.io"
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
