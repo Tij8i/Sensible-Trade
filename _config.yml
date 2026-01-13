@@ -7,6 +7,12 @@ tagline: "Partnering with Italian producers to bring quality to the Australian m
 baseurl: "/Sensible-Trade"
 url: "https://tij8i.github.io"
 
+# Language Settings
+default_lang: en
+languages:
+  - en
+  - it
+
 # Build settings
 markdown: kramdown
 sass:
