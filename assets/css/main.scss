@@ -431,22 +431,37 @@ section {
   background: linear-gradient(135deg, rgba($cream, 0.92) 0%, rgba($cream-dark, 0.95) 100%),
               url('{{ "/assets/img/olives-bg.jpg" | relative_url }}') center/cover;
   background-attachment: fixed;
+  text-align: center;
+  
+  h2 {
+    margin-bottom: 3rem;
+  }
   
   &__grid {
     display: grid;
-    gap: 2.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
     margin-top: 2rem;
+    
+    @media (max-width: 900px) {
+      grid-template-columns: 1fr;
+      gap: 2.5rem;
+    }
   }
   
   &__item {
+    text-align: center;
+    
     h3 {
       color: $gold;
       font-size: 1.4rem;
+      margin-bottom: 1rem;
     }
     
     p {
       color: $text-dark;
       opacity: 0.85;
+      margin-bottom: 0;
     }
   }
 }
