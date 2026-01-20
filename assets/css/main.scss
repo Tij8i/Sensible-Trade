@@ -400,28 +400,28 @@ section {
 
 // Producer CTA Block (for homepage/footer)
 .producer-cta {
-  background: $gold;
+  background: $cream-dark;
   padding: 3rem 2rem;
   text-align: center;
   
   h3 {
-    color: $cream;
+    color: $gold;
     font-size: 1.8rem;
     margin-bottom: 0.5rem;
   }
   
   p {
-    color: $cream;
+    color: $text-dark;
     opacity: 0.9;
     margin-bottom: 1.5rem;
   }
   
   .btn {
-    background: $cream;
-    color: $gold;
+    background: $terracotta;
+    color: $white;
     
     &:hover {
-      background: $white;
+      background: $terracotta-dark;
     }
   }
 }
