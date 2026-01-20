@@ -4,13 +4,13 @@ Website for Sensible Trade — connecting Italian producers with Australian dist
 
 ## Live Site
 
-https://sensibletrade.au
+https://sensibletrade.co
 
 ## Domain & Hosting
 
 | Item | Details |
 |------|---------|
-| **Domain** | sensibletrade.au |
+| **Domain** | sensibletrade.co |
 | **Registrar** | GoDaddy |
 | **Registered** | January 19, 2026 |
 | **Expires** | January 19, 2027 |
@@ -51,4 +51,4 @@ bundle exec jekyll serve
 3. Branch: main
 4. Save
 
-Site will be live at: https://sensibletrade.au
+Site will be live at: https://sensibletrade.co
