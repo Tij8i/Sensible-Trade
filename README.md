@@ -1,12 +1,21 @@
-# Sensible Trade
+# Sensible Trade (v1 — Archived)
 
-Website for Sensible Trade — connecting Italian producers with Australian distributors.
+> ⚠️ **This repository is archived.** The live website has moved to [sensible-refresh](https://github.com/Tij8i/sensible-refresh).
 
-## Live Site
+This was the original Sensible Trade website — a Jekyll-based static site hosted on GitHub Pages at `sensibletrade.co`. It was replaced on **February 22, 2026** with a new React/Vite site built on Lovable.
 
-https://sensibletrade.co
+## What Was Here
 
-## Domain & Hosting
+- Jekyll-based static site with bilingual support (EN/IT)
+- Single-page design with anchor navigation
+- Pages: `/`, `/it/`, `/producers/`, `/it/produttori/`
+- Hosted on GitHub Pages with custom domain
+
+## Current Setup
+
+The live site is now served from **[Tij8i/sensible-refresh](https://github.com/Tij8i/sensible-refresh)**.
+
+## Domain & Hosting (still current)
 
 | Item | Details |
 |------|---------|
@@ -14,9 +23,9 @@ https://sensibletrade.co
 | **Registrar** | GoDaddy |
 | **Registered** | January 19, 2026 |
 | **Expires** | January 19, 2027 |
-| **Hosting** | GitHub Pages |
+| **Hosting** | GitHub Pages (now via sensible-refresh repo) |
 
-## Email Infrastructure
+## Email Infrastructure (still current)
 
 | Item | Details |
 |------|---------|
@@ -31,45 +40,6 @@ https://sensibletrade.co
 - **MX Records**: Zoho MX servers
 - **SPF**: Configured for Zoho
 - **DKIM**: Configured via Zoho
-
-## Structure
-
-- Jekyll-based static site
-- Hosted on GitHub Pages
-- Bilingual: English (/) and Italian (/it/)
-- Single-page design with anchor navigation
-
-## Pages
-
-| Path | Description |
-|------|-------------|
-| `/` | English homepage |
-| `/it/` | Italian homepage |
-| `/producers/` | English producer landing page |
-| `/it/produttori/` | Italian producer landing page |
-
-## Sections
-
-- Hero: Main value proposition
-- What We Do: Product Sourcing, Export & Compliance, Logistics, Marketing
-- Who We Work With: Target customer segments
-- Why Work With Us: Value proposition
-- Our Services: 4-column service overview
-- Producer CTA: Link to producer page
-- Contact: Email link
-
-## Images
-
-Located in `assets/img/`:
-- `deli-shelf.jpg` — "Who we work with" section
-- `liguria-coast.jpg` — "Why work with us" section
-
-## Development
-
-```bash
-bundle install
-bundle exec jekyll serve
-```
 
 ## Related Systems
 
